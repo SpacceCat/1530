@@ -80,6 +80,9 @@ ol li{
 	display:inline-block;
 	width: 100%;
 }
+ul li ol li{
+	background-color: #000;
+}
 
 
 /* buttons */
