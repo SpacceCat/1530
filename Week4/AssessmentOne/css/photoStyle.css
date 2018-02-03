@@ -1,110 +1,106 @@
-html{
-		font-size: 16px;
-		font-size: 62.5%; /* 62.5% of 16 = 10 */
-		background: linear-gradient(180deg, #fff, #c8f6c8);
+html {
+	font-size: 16px;
+	font-size: 62.5%;
+	/* 62.5% of 16 = 10 */
+	background: linear-gradient(180deg, #fff, #c8f6c8);
 }
-body{
+body {
 	width: 70%;
 	margin: 0 auto;
 	font-size: 1.6rem;
-	font-family: arial;
+	font-family: 'Lato', sans-serif;
 	color: #212121;
 }
-header, section, footer{
+header, section, footer {
 	margin: 4.0rem auto;
 }
-section, footer{
+section, footer {
 	margin-top: 20rem;
 	text-align: center;
 }
-h1, h2{
+h1, h2 {
 	font-family: 'Lato', sans-serif;
 	margin: 2.0rem auto;
 }
-h1{
+h1 {
+	font-size: 1.6rem;
+}
+h2 {
 	font-size: 4.8rem;
 }
-h2{
-	font-size: 3.6rem;
-}
-img{
+img {
 	max-width: 100%;
 }
-section img, footer img{
+section img, footer img {
 	margin: 1.2rem;
 }
-header li p{
+header li p {
 	font-size: 2.0rem;
 	line-height: 2.4rem;
-	margin-top: 0;
 }
 /* navigation */
-header ul li{
+
+header ul li {
 	display: inline-block;
 	max-width: 100%;
 }
-header ul li:last-child{
+header ul li:last-child {
 	background-color: #57de57;
-	border-radius: 1.0rem;
 	padding: 1.0rem;
 	float: right;
 }
+/*ol to separate from stylin on ul li's*/
 
-
+ol li {
+	display: inline-block;
+	width: 100%;
+}
 /* banner */
-.banner{
+
+.headingbanner {
 	margin: 5.0rem auto;
 }
-.banner img{
+.headingbanner img {
 	margin-bottom: 8rem;
 }
 /* sections */
 
-
-section ul{
+section ul {
 	display: flex;
 	justify-content: space-between;
 }
-
 /* footer */
-footer li{
+
+footer li {
 	float: none;
 	display: inline-block;
 }
-p{
+p {
 	margin-bottom: 2.0rem;
 	font-size: 1.6rem;
 }
-/*ol*/
-ol li{
-	display:inline-block;
-	width: 100%;
-}
-ul li ol li{
-	background-color: #000;
-}
-
-
 /* buttons */
-section button{
+
+.headingbutton, header ul li:last-child {
+	border-radius: 1.0rem;
+}
+.headingbutton {
 	border: 0.2rem solid #8393ca;
 	font-size: 2.6rem;
 	background-color: #57de57;
-	border-radius: 1.0rem;
 	padding: 1.0rem 2.0rem;
 }
-button:hover{
+.headingbutton:hover {
 	background-color: #97eb97;
 	cursor: pointer;
 }
+/* links a */
 
-/* links */
-a:link{
+a:link {
 	color: #212121;
 	text-decoration: none;
 	padding: 1.0rem;
 }
-a:hover{
+a:hover {
 	color: #373737;
-
 }
