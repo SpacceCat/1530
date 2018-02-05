@@ -1,0 +1,97 @@
+html {
+	font-size: 16px;
+	font-size: 62.5%;
+	box-sizing: border-box;
+	/*this just squishes the box to fit when padding/margin added*/
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+body{
+	font-size: 1.6rem;
+	margin: 0 auto;
+	width: 75%;
+	color: #626262;
+	font-family: 'Playfair Display', serif;
+}
+/*head*/
+ul li:first-child{
+	float: left;
+	padding: none;
+}
+ul li{
+	float: right;
+	padding-left: 4%;
+	line-height: 3rem;
+}
+
+/* --- Typographical Scales --- */
+main{
+	padding-top: 5%;
+}
+div:first-child{
+	width: 100%;
+}
+div{
+	width: 50%;
+	float: left;
+	padding: 5%;
+}
+
+
+/* --- Navigational Behaviours --- */
+nav a {text-decoration: none;}
+
+a:link {
+	color: #333;
+	text-decoration: none;
+}
+a:active {
+	color: #333;
+}
+a:hover {
+	color: #999;
+}
+a:visited {
+	color: #999;
+}
+header img{
+	height: auto;
+	width: 100%;
+}
+div img{
+	width: 100%;
+	height: auto;
+}
+/*headings*/
+h1,h3{
+	font-size: 3.0rem;
+	line-height: 3.0rem;
+}
+h2{
+	font-size: 1.4rem;
+	padding: 2% 0;
+	color: #b4ad9e;
+	font-family: 'Ubuntu', sans-serif;
+}
+p{
+	font-size: 1.4rem;
+	padding-top: 2%;
+	padding-bottom: 5%;
+	line-height: 1.5;
+}
+footer{
+	background-color: #f0f0f0;
+	color: #000;
+	width: 100%;
+	padding: 5%;
+
+}
+ol li{
+	float: right;
+	padding: 1%;
+}
+ol li:first-child, ol li:nth-child(2){
+	float: left;
+}
