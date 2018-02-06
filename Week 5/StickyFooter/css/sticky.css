@@ -1,0 +1,65 @@
+html {
+	font-size: 16px; 
+	font-size: 62.5%;
+	box-sizing: border-box;
+	position: relative;
+	min-height: 100%;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+/* --- Typographical Scales --- */
+body{
+	font-size: 1.6rem;
+	margin: 0 0 10rem; /*this is bottom footer margin in shorthand*/
+}
+h1{
+	font-size: 4.8rem;
+	margin: 1.5rem 0;
+}
+p{
+	margin: 1rem 0;
+}
+
+/* -- Developer Styles -- */
+header, footer{
+	width: 100%;
+}
+
+header{
+	height: 20rem;
+	background-color: #ff99e6;
+}
+main{
+	padding: 4rem;
+	width: 75%;
+	margin: 0 auto;
+}
+footer{
+	position: fixed;
+	height: 10rem;
+	left: 0;
+	bottom: 0;
+	background-color: #14b866;
+}
+
+
+/* --- Navigational Behaviours --- */
+nav a {
+	text-decoration: none;
+}
+
+a:link {
+	color: #333;
+}
+a:active {
+	color: #333;
+}
+a:hover {
+	color: #999;
+}
+a:visited {
+	color: #999;
+}
