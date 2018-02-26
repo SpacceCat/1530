@@ -1,0 +1,3 @@
+Responsive Development, Responsive images and text, & Responsive content
+
+[In-Class] Fluid Responsive Grid Wireframe
