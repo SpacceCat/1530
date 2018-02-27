@@ -1,0 +1,53 @@
+html {
+	font-size: 16px; 
+	font-size: 62.5%;
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+main{
+	width: 75%;
+	margin: 0 auto;
+	background-color: #f8f2f2;
+	padding: 2%;
+
+}
+/* --- Typographical Scales --- */
+p, a{
+	font-size: 2.4rem;
+}
+span{
+	color: skyblue;
+	margin: 20px;
+	visibility: hidden;
+}
+/*#hideMe{
+	visibility: hidden;
+}*/
+a{
+	border:2px solid black;
+}
+#hideMe{
+	
+}
+
+
+/* --- Navigational Behaviours --- */
+nav a {
+	text-decoration: none;
+}
+
+a:link {
+	color: #333;
+}
+a:active {
+	color: #333;
+}
+a:hover {
+	color: #999;
+}
+a:visited {
+	color: #999;
+}
