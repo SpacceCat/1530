@@ -1,0 +1,5 @@
+border radius 50%
+font awesome icons
+not button objects but fontawesome icons(< >)
+social media icons = basketball
+gradient header
