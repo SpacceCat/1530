@@ -1,0 +1,44 @@
+html {
+	font-size: 16px; 
+	font-size: 62.5%;
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+/* --- Typographical Scales --- */
+body{
+	background-color: #000;
+}
+header{
+	background-color: #4e5d68;
+}
+header, main, footer{
+	width: 75%;
+	margin:0 auto;
+}
+main, footer{
+	background-color: #fff;
+}
+li{
+	display: inline-block;
+}
+/* --- Navigational Behaviours --- */
+nav a {
+	text-decoration: none;
+}
+
+a:link {
+	color: #333;
+}
+a:active {
+	color: #333;
+}
+a:hover {
+	color: #999;
+}
+a:visited {
+	color: #999;
+}
