@@ -7,23 +7,118 @@ html {
 *, *:before, *:after {
 	box-sizing: inherit;
 }
-
+@font-face{
+	font-family: 'Arg';
+	src: url(../fonts/Aaargh.ttf);
+}
+@font-face{
+	font-family: 'Alice';
+	src: url(../fonts/Alice-Regular.ttf);
+}
 /* --- Typographical Scales --- */
 body{
 	background-color: #000;
+	font-size: 1.6rem;
 }
+
+/*HEADER AND NAV AREAS BELOW*/
 header{
 	background-color: #4e5d68;
+	padding: 5rem;
 }
+h1{
+	font-family: 'Arg';
+	float: left;
+	display: inline-block;
+	color: #fff;
+	font-size: 4.6rem;
+}
+h2{
+	font-family: 'Alice';
+	font-size: 4.6rem;
+}
+nav li{
+	display: inline-block;
+	font-size: 1.5rem;
+	font-family: 'Arg';
+	padding-left: 10rem;
+}
+nav{
+	float: right;
+}
+
+.banner > img{
+	width: 35%;
+	height: auto;
+	float: left;
+}
+.banner{
+	padding-top: 10rem;
+}
+
+.innerbanner{
+	width: 50rem;
+	float: right;
+	color: #fff;
+	padding-top: 5rem;
+}
+.innerbanner p{
+	line-height: 1.5;
+	margin-bottom: 1.6rem;
+	text-indent: 1rem;
+}
+.innerbanner a:link{
+	text-decoration: none;
+	font-family: 'Arg';
+}
+.innerbanner li:first-child{
+	text-decoration: none;
+	float: left;
+	background-color: #5096ce; /*this is button blue color*/
+	padding: 1rem;
+	border-radius: 0.5rem;
+}
+.innerbanner li:last-child{
+	text-decoration: none;
+	float: right;
+	text-decoration: underline;
+	padding: 1rem;
+	font-size: 1.5rem;
+}
+
+
 header, main, footer{
 	width: 75%;
 	margin:0 auto;
 }
+
+
+
+/*SECTIONS AND MAIN AREAS BELOW*/
 main, footer{
 	background-color: #fff;
 }
-li{
+section{
+	padding: 5rem;
+}
+.readMoreSections{
+	text-align: center;
+	width: 25%;
+	float: left;
+}
+.readMoreSections li:last-child{
+	background-color: #5096ce;
+	text-decoration: none;
 	display: inline-block;
+	text-decoration: underline;
+	padding: 1rem;
+	font-size: 1.5rem;
+}
+li{
+	/*display: inline-block;*/
+}
+p{
+	font-size: 1.6rem;
 }
 /* --- Navigational Behaviours --- */
 nav a {
@@ -31,7 +126,7 @@ nav a {
 }
 
 a:link {
-	color: #333;
+	color: #fff;
 }
 a:active {
 	color: #333;
