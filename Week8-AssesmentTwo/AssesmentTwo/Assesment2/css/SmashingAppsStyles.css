@@ -101,18 +101,95 @@ main, footer{
 section{
 	padding: 5rem;
 }
+h3{
+	font-family: 'Arg';
+	font-size: 2.0rem;
+	color: #4b5a65;
+	line-height: 1.5;
+	font-weight: 400;
+}
 .readMoreSections{
 	text-align: center;
 	width: 25%;
-	float: left;
+
+}
+.readmoreposts{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.iconBorder{
+	border:5px solid #4b5a65;
+	border-radius: 100%;
+	display: inline-block;
+	padding: 3rem;
+}
+.readMoreSections li{
+	color: #4b5a65;
+	font-family: 'Alice';
+	line-height: 1.5;
+	font-size: 1.4rem;
+	padding-bottom: 1rem;
+}
+.readMoreSections li:first-child{
+	border-radius: 100%;
 }
 .readMoreSections li:last-child{
 	background-color: #5096ce;
 	text-decoration: none;
 	display: inline-block;
-	text-decoration: underline;
 	padding: 1rem;
 	font-size: 1.5rem;
+	border-radius: 0.4rem;
+	font-family: 'Arg';
+}
+/*SEALED PROJECTS*/
+.sealProjects{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.sealProjects img{
+	padding: 0.2rem;
+	margin:2rem;
+	border:1px solid grey;
+}
+.sealProjects a:link{
+	background: linear-gradient(#f8f8f8, #f0f0f0);
+	/*background-color: #f0f0f0;*/
+	padding: 1rem;
+	margin: 1rem;
+	border-radius: 50%;
+	color: #a7a7a7;
+	border:0.1rem solid #a7a7a7;
+}
+.sealProjects a:hover{
+	color: #cacaca;
+	border:0.1rem solid #cacaca;
+	background: linear-gradient(#f0f0f0, #f8f8f8);
+}
+
+.postsTwitterBlog {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+h4{
+	font-family: 'Alice';
+	font-size: 1.4rem;
+}
+.postsblocks{
+/*make these things all go in the same line
+IMAGES and P and HEADINGS*/
+font-family: Arial;
+font-size: 1.3rem;
+}
+.postsblocks a:link{
+	color: lightblue;
+}
+.postsblocks span{
+	color: grey;
+	font-size: 1.1rem;
 }
 li{
 	/*display: inline-block;*/
@@ -127,6 +204,7 @@ nav a {
 
 a:link {
 	color: #fff;
+	text-decoration: none;
 }
 a:active {
 	color: #333;
