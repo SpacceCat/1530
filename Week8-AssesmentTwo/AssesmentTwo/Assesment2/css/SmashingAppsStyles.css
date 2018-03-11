@@ -29,25 +29,30 @@ main, footer{
 /*HEADER AND NAV AREAS BELOW*/
 header{
 	background: linear-gradient(#4b5a65, #4c5b66);
-	padding: 5rem 25rem 5rem 25rem;
+	/*padding: 5rem 25rem 5rem 25rem;*/
+}
+h1, h3{
+	font-family: 'Arg';
 }
 h1{
-	font-family: 'Arg';
-	float: left;
+float: left;
 	display: inline-block;
 	color: #fff;
 	font-size: 4.6rem;
 }
-h2{
+h2, h4{
 	font-family: 'Alice';
+}
+h2{
 	font-size: 4.6rem;
 }
 h3{
-	font-family: 'Arg';
 	font-size: 2.0rem;
 	color: #4b5a65;
-	line-height: 1.5;
-	font-weight: 400;
+}
+h4{
+	font-size: 1.5rem;
+	margin-top: 1rem;
 }
 header a:link{
 	text-decoration: none;
@@ -61,7 +66,7 @@ nav{
 }
 nav a {
 	text-decoration: none;
-		color: #fff;
+	color: #fff;
 	text-decoration: none;
 }
 nav li{
@@ -71,25 +76,32 @@ nav li{
 	padding-left: 10rem;
 }
 /* BANNERS AND IMGS*/
-.banner > img{
-	width: 35%;
-	height: auto;
-	float: left;
+.headercontainer{
+	padding: 5rem 25rem 5rem 25rem
 }
 .banner{
 	padding-top: 10rem;
+	width: 100%;
 }
-
+header > img{
+	width: 25%;
+	height: auto;
+	position: relative;
+	bottom: 0;
+	left: 25rem;
+}
 .innerbanner{
-	width: 50rem;
+	width: 50%;
 	float: right;
 	color: #fff;
 	padding-top: 5rem;
+	vertical-align: text-bottom;
 }
 .innerbanner p{
-	line-height: 1.5;
+	line-height: 2;
 	margin-bottom: 1.6rem;
 	text-indent: 1rem;
+	font-family: 'Alice';
 }
 
 .innerbanner li:first-child{
@@ -107,7 +119,14 @@ nav li{
 	font-size: 1.5rem;
 }
 
-
+.colorbar{
+	width: 100%;
+	height: 10rem;
+	background: linear-gradient(#f0f0f0, #e6e6e7);
+	border-bottom: 0.1rem solid #c3c3c3;
+	position: relative;
+	
+}
 /*SECTIONS AND MAIN AREAS BELOW*/
 
 main, footer{
@@ -127,13 +146,13 @@ section{
 	justify-content: space-around;
 }
 .iconBorder{
-	border:5px solid #4b5a65;
+	border:5px solid #7d8f9b;
 	border-radius: 100%;
 	display: inline-block;
 	padding: 3rem;
 }
 .readMoreSections li{
-	color: #4b5a65;
+	color: #7d8f9b;
 	font-family: 'Alice';
 	line-height: 1.5;
 	font-size: 1.4rem;
@@ -160,12 +179,10 @@ section{
 	justify-content: center;
 }
 .sealProjects img{
-	padding: 0.2rem;
 	margin:2rem;
 	min-width: 0;
 	width: 100%;
 	height: auto;
-	border:1px solid grey;
 }
 /* SEALED PROJECTS LINK */
 .sealProjects a:link, .sealProjects a:hover{
@@ -173,11 +190,11 @@ section{
 	margin: 1rem;
 	border:0.1rem solid #a7a7a7;
 	border-radius: 50%;
+	color: #a7a7a7;
 }
 .sealProjects a:link{
 	background: linear-gradient(#f8f8f8, #f0f0f0);
 	color: #a7a7a7;
-
 }
 .sealProjects a:hover{
 	color: #cacaca;
@@ -195,18 +212,15 @@ section{
 
 /*container*/
 .container{
-	width: 50%;
+	width: 45%;
 }
-h4{
-	font-family: 'Alice';
-	font-size: 1.5rem;
-	margin-top: 1rem;
-}
+
 .postsblocks, .twitterblocks{
 	font-family: Arial;
 	font-size: 1.3rem;
 	float: left;
 }
+
 .followtwitter{
 	float: left;
 	margin: 5rem;
@@ -214,9 +228,8 @@ h4{
 
 /* TEXT LINKS DECORATIONS/COLOURS */
 
-main a:link, main a:link, main a:hover, main a:visited, main a:visited{
+main a:link, main a:hover, main a:visited, main a:visited{
 	color: #3c92d0;
-	font-size: 1.3rem;
 	text-decoration: none;
 }
 .readMoreSections a:link, .readMoreSections a:link, .readMoreSections a:hover, .readMoreSections a:visited, .readMoreSections a:visited, .innerbanner a:link, .innerbanner a:link, .innerbanner a:hover, .innerbanner a:visited, .innerbanner a:visited{
@@ -228,16 +241,21 @@ main a:link, main a:link, main a:hover, main a:visited, main a:visited{
 .twitterblocks p{
 	margin-top: 1rem;
 }
-.postsblocks p{
-	font-size: 1.3rem;
-}
 
 
 /*BLOG POST*/
+.postsblocks{
+	float: left;
+}
 .blogpost{
-	/*float: right;*/
 	display: inline-block;
 	width: 50%;
+	vertical-align: top;
+}
+.postsblocks img{
+	margin-top: 1rem;
+	margin-left: 0;
+	padding-left: 0;
 }
 
 /*FOOTER*/
