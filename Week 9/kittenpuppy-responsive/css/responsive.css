@@ -1,0 +1,97 @@
+html {
+	font-size: 16px; 
+	font-size: 62.5%;
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+header, main, footer{
+	width: 75%;
+	margin: 0 auto;
+	background-color: #f8f2f2;
+	min-height: 200px;
+	font-size: 1.6rem;
+}
+h1{
+	font-size: 4.0rem;
+}
+h2{
+	font-size: 3.6rem;
+}
+div{
+	width: 100%;
+	margin: 4% 0;
+}
+img{
+	width: 100%;
+	height: auto;
+}
+/* 96(this is left over from margins) / 2 = 48*/
+.one, .two{
+	float: left;
+	width: 48%;
+	border: 2px solid black;
+	background-color: skyblue;
+	min-height: 100px;
+}
+.one{
+	margin-right: 4%;
+}
+.three{
+
+}
+.four{
+	display: none;
+}
+nav a {
+	text-decoration: none;
+}
+
+a:link {
+	color: #333;
+}
+a:active {
+	color: #333;
+}
+a:hover {
+	color: #999;
+}
+a:visited {
+	color: #999;
+}
+
+
+
+
+/* Media Queries*/
+/*min-width - when the screen is less than 1024 then it will do whatever in {  }*/
+@media only screen 
+  and (max-width: 1024px){/*when i get smaller than 1024, display none is not valid anymore*/
+	.three{
+		display: none;
+	}
+	.four{
+		display: block;
+	}
+
+  } 
+
+  @media only screen 
+  and (max-width: 768px){
+  	img{
+  		display: none;
+  	}
+	
+  } 
+
+  @media only screen 
+  and (max-width: 360px){
+	.one, .two{
+		float: none;
+		width: 100%;
+	}
+	
+  } 
