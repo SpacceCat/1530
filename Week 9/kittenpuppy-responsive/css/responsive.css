@@ -17,9 +17,11 @@ header, main, footer{
 }
 h1{
 	font-size: 4.0rem;
+	padding: 2%;
 }
 h2{
 	font-size: 3.6rem;
+	padding: 2%;
 }
 div{
 	width: 100%;
@@ -29,13 +31,18 @@ img{
 	width: 100%;
 	height: auto;
 }
+p{
+	padding: 2%;
+}
+
 /* 96(this is left over from margins) / 2 = 48*/
 .one, .two{
 	float: left;
 	width: 48%;
 	border: 2px solid black;
 	background-color: skyblue;
-	min-height: 100px;
+	min-height: 200px;
+	padding: 2%:;
 }
 .one{
 	margin-right: 4%;
@@ -76,7 +83,9 @@ a:visited {
 	.four{
 		display: block;
 	}
+	.one, .two{
 
+	}
   } 
 
   @media only screen 
@@ -84,6 +93,7 @@ a:visited {
   	img{
   		display: none;
   	}
+
 	
   } 
 
