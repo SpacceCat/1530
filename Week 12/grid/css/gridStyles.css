@@ -1,0 +1,116 @@
+html{
+		font-size: 16px;
+		font-size: 62.5%; /* 62.5% of 16 = 10 */
+}
+body{
+	width: 940px;
+	margin: 0 auto;
+	font-size: 1.6rem;
+}
+header{
+	text-align: left;
+	padding: 4.0rem;
+	background-color: #f2f2f2;
+	margin-bottom: 0.5rem;
+}
+div{
+	margin-top: 2%;
+	height: 5rem;
+	float: left;
+}
+.container1{
+	width: 100%;
+	background-color: #3bf4ef;
+	margin: 0 auto;
+}
+.container2{
+	width: 7%;
+	background-color: #578fea;
+	margin-right: 2%;
+}
+.container3{
+	width: 91%;
+	background-color: #f49806;
+}
+.fixmargin{
+	margin-right: 0;
+}
+.container4{
+	width: 52%;
+	background-color: #98d309;
+	margin-right: 2%;
+}
+.container5{
+	width: 46%;
+	background-color: #e886f2;
+}
+.container6{
+	width: 22%;
+	background-color: #578fea;
+	margin-right: 2%;
+}
+.container7{
+	width: 50%;
+	background-color: #98d309;
+	margin-right: 2%;
+}
+.container8{
+	width: 24%;
+	background-color: #578fea;
+}
+.container9, .container10, .container11{
+	width: 32%;
+	background-color: #f49806;
+	margin-right: 2%;
+}
+.container10{
+	width: 32%;
+	background-color: #f49806;
+	margin-right: 2%;
+}
+.container11{
+	width: 32%;
+	background-color: #f49806;
+	margin-right: 0;
+}
+.container12{
+	width: 40%;
+	background-color: #e886f2;
+	margin-right: 2%;
+}
+.container13{
+	width: 14%;
+	background-color: #3bf4ef;
+	margin-right: 2%;
+}
+.container14{
+	width: 42%;
+	background-color: #e886f2;
+}
+.container15{
+	width: 32%;
+	background-color: #f49806;
+	margin-right: 2%;
+}
+.container16{
+	width: 66%;
+	background-color: #f49806;
+}
+.container17{
+	width: 72%;
+	background-color: #578fea;
+	margin-right: 2%;
+}
+.container18{
+	width: 26%;
+	background-color: #578fea;
+}
+.container19{
+	width: 15%;
+	background-color: #3bf4ef;
+	margin-right: 2%;
+}
+.container20{
+	width: 83%;
+	background-color: #3bf4ef;
+}
